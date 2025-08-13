@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viral Insta</title>
+  <meta name="description" content="Funny memes, reels aur viral content ka adda - Viral Insta!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#">Viral Insta</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#posts">Posts</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Viral Insta 🤳</h1>
+      <p>Yahan milta hai sabse bekar-par-majedaar content! Memes, reels, aur woh sab jo aapko haste-haste rula de.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#posts">Dekho Content</a>
+        <a class="btn ghost" href="#contact">Contact Karo</a>
+      </div>
+    </section>
+
+    <section id="about" class="container grid-2">
+      <div>
+        <h2>Hum Kaun Hain?</h2>
+        <p>Hum "Viral Insta" wale hain – social media ke joker, jo aapke boring din ko memes aur reels se mast bana dete hain.
+           Har post ka aim hai ek hi: aapko hasi aana chahiye... chahe hasi real ho ya sarcastic.</p>
+        <ul class="ticks">
+          <li>Daily memes & funny reels</li>
+          <li>Trending & relatable content</li>
+          <li>Zero stress, sirf mast hansi</li>
+        </ul>
+      </div>
+      <img class="card-img" src="https://images.unsplash.com/photo-1518544889286-b0b2d7db4e4d?q=80&w=1200&auto=format&fit=crop" alt="Funny vibe">
+    </section>
+
+    <section id="posts" class="section-muted">
+      <div class="container">
+        <h2>Hum Kya Post Karte Hain 📸</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Memes</h3>
+            <p>Fresh memes jo aapke dimaag me din bhar ghoomein.</p>
+          </div>
+          <div class="card">
+            <h3>Reels</h3>
+            <p>15 sec me hasi ka dhamaka — short, sweet, and viral-ready.</p>
+          </div>
+          <div class="card">
+            <h3>Viral Videos</h3>
+            <p>Woh videos jo aapke friend group me sab share karte hain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Karo 📩</h2>
+      <form class="contact" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <label>Naam
+          <input name="name" required />
+        </label>
+        <label>Email
+          <input name="email" type="email" required />
+        </label>
+        <label>Message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+      <p class="tiny">Ya phir hume Instagram pe DM karo 😉</p>
+      <div style="margin-top:10px;">
+        <a class="btn primary" href="https://instagram.com/" target="_blank">Instagram Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Viral Insta. Sab rights memes ke.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
